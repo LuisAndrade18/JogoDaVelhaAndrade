@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+  text-align: center;
+}
+
+h1{
+  margin: 50px;
+}
+
+.caixa {
+  background-color: white;
+  margin: 0 auto;
+  border: solid;
+  width: 614px;
+  height: 614px;
+}
+
+.caixinha {
+  width: 200px;
+  height: 200px;
+  display:inline-block;
+  border: solid 1px;
+}
+
+.bola, .quadrado{
+  width: 150px;
+  height: 150px;
+  border: solid;
+  margin: 25px;
+}
+
+.bola{
+  border-radius: 100%;
+  background-color: red;
+}
+
+.quadrado{
+  background-color: blue;
+}
